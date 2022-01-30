@@ -1,0 +1,94 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 700px;
+    margin: 30px auto 20px auto;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+.main-container {
+    height: 550px;
+    width: 350px;
+    background-color: #fff;
+    text-align: center;
+    position: absolute;
+    left: 550px;
+    top: 150px;
+    border-radius: 20px;
+}
+
+.hero-img {
+    border-radius: 20px 20px 0 0;
+    width: 350px;
+    max-width: 100%;
+  max-height: 100%;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  hsl(226, 78%, 91%);
+    height: 90px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.price h3 {
+    margin: 10px 20px 20px 90px;
+}
+
+.price p {
+   color: hsl(224, 23%, 55%);
+   font-weight: 500;
+   position: relative;
+   top: 20px;
+   right: 135px;
+
+}
+
+.plans a {
+    position: absolute;
+    right: 25px;
+    bottom: 145px;
+}
+
+.music-icon {
+    position: absolute;
+    left: 39px;
+    bottom: 133px;
+}
+
+.payment {
+    background-color: #3829e0;
+    color: #fff;
+    border-radius: 8px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    font-family: 'Red Hat Display';
+    font-size: 17px;
+    margin: 8px;
+    font-weight: 600;
+    padding: 10px;
+    box-shadow: 0 8px 6px -6px hsl(224, 23%, 55%);
+}
+.payment:hover {
+    cursor: pointer;
+}
+
+.order {
+    color: hsl(224, 23%, 55%);
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
